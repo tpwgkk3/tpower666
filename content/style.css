@@ -26,6 +26,7 @@ img {
 .text-signup {
 	display: block;
 	font-weight: bold;
+	color: #ffffff;            /* white text */
 	animation: signupBlink 1.2s infinite;
 }
 
