@@ -353,6 +353,8 @@ img {
 
 #a6685618956 .nickname[data-v-7a1517396] {
 	font-size: 12px;
+	font-weight: 600;
+	letter-spacing: 0.3px;
 }
 
 #a6685618956 .balance[data-v-7a1517396] {
@@ -1193,7 +1195,7 @@ button:not(:disabled) {
 
 .alert {
 	font-weight: bold;
-	color: #b30404;
+	color: #ffffff;
 }
 
 .hidden {
