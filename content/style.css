@@ -26,6 +26,12 @@ img {
 .text-signup {
 	display: block;
 	font-weight: bold;
+	animation: signupBlink 1.2s infinite;
+}
+
+@keyframes signupBlink {
+	0%, 50%, 100% { opacity: 1; }
+	25%, 75% { opacity: 0; }
 }
 
 #a6685618956 a {}
