@@ -1118,7 +1118,7 @@ button:not(:disabled) {
 	right: 0;
 	width: 100%;
 	height: 5px;
-	background: linear-gradient(to right, #FFFFFF, #C00000);
+	background: linear-gradient(to right, #C00000, #FFFFFF);
 	animation: animate1 2s linear infinite;
 }
 
