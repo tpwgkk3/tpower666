@@ -1197,25 +1197,12 @@ button:not(:disabled) {
 .alert {
 	font-weight: bold;
 	color: #ffffff;
-	overflow: hidden;
-	white-space: nowrap;
-	border-right: 2px solid #ffffff;
-	width: 0;
-	animation:
-		typing 3s steps(20, end) forwards,
-		blinkCursor 0.8s infinite;
+	animation: blink 1s infinite;
 }
 
-@keyframes typing {
-	from { width: 0; }
-	to { width: 100%; }
-}
-
-@keyframes blinkCursor {
-	0%, 50%, 100% { border-color: transparent; }
-	25%, 75% { border-color: #ffffff; }
-}
-
+@keyframes blink {
+	0%, 50%, 100% { opacity: 1; }
+	25%, 75% { opacity: 0; }
 }
 
 .hidden {
