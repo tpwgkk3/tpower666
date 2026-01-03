@@ -318,7 +318,7 @@ img {
 
 #a6685618956 .balance-card[data-v-7a1517396],
 #a6685618956 .wallet-card[data-v-7a1517396] {
-	background-color: #9e0202;
+	background-color: linear-gradient(to bottom, #FFFFFF 0%, #E6E6E6 100%);;
 	border-radius: 3px;
 	padding: 8px;
 	text-align: center;
