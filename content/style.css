@@ -327,6 +327,7 @@ img {
 #a6685618956 .wallet-card[data-v-7a1517396] {
 	background: linear-gradient(to right, #1a1a1a, #2a2a2a);
     border-left: 4px solid #e92213;
+	border-right: 4px solid #e92213;
 	border-radius: 8px;
 	padding: 8px;
 	text-align: center;
@@ -1127,8 +1128,7 @@ button:not(:disabled) {
 	width: 100%;
 	height: 5px;
 	background: linear-gradient(to right, #1a1a1a, #2a2a2a);
-    border-left: 4px solid #e92213;
-	animation: animate1 2s linear infinite;
+    animation: animate1 2s linear infinite;
 }
 
 @keyframes animate1 {
