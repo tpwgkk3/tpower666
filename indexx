@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Fast SEO Website</title>
+
+  <!-- SEO -->
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Fast loading, Google-optimized website">
+  <meta name="robots" content="index, follow">
+
+  <!-- CRITICAL CSS (inline, very small) -->
+  <style>
+    html, body {
+      margin: 0;
+      padding: 0;
+      font-family: system-ui, -apple-system, BlinkMacSystemFont, Arial, sans-serif;
+      background: #222831;
+      color: #ffffff;
+    }
+
+    header {
+      height: 60px;
+      display: flex;
+      align-items: center;
+      padding: 0 16px;
+      background: #1b1f27;
+    }
+
+    main {
+      padding: 24px 16px;
+      max-width: 1200px;
+      margin: auto;
+    }
+
+    h1 {
+      font-size: 28px;
+      margin-bottom: 12px;
+    }
+
+    p {
+      font-size: 18px;
+      line-height: 1.6;
+    }
+
+    .btn-primary {
+      display: inline-block;
+      margin-top: 16px;
+      padding: 12px 18px;
+      background: #ffcc00;
+      color: #000;
+      border-radius: 6px;
+      text-decoration: none;
+      font-weight: 600;
+    }
+  </style>
+
+  <!-- NON-CRITICAL CSS (async) -->
+  <link rel="preload" href="/css/app.css" as="style" onload="this.rel='stylesheet'">
+  <noscript>
+    <link rel="stylesheet" href="/css/app.css">
+  </noscript>
+
+</head>
+<body>
+
+<header>
+  <strong>My Website</strong>
+</header>
+
+<main>
+  <h1>Fast & Google Friendly Website</h1>
+  <p>
+    This page loads fast, is SEO-safe, and optimized for Core Web Vitals.
+  </p>
+  <a href="#" class="btn-primary">Get Started</a>
+</main>
+
+</body>
+</html>
