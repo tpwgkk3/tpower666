@@ -1,80 +1,67 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="utf-8">
-  <title>Fast SEO Website</title>
-
-  <!-- SEO -->
+  <meta charset="UTF-8">
+  <title>Layout Example</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="Fast loading, Google-optimized website">
-  <meta name="robots" content="index, follow">
 
-  <!-- CRITICAL CSS (inline, very small) -->
-  <style>
-    html, body {
-      margin: 0;
-      padding: 0;
-      font-family: system-ui, -apple-system, BlinkMacSystemFont, Arial, sans-serif;
-      background: #222831;
-      color: #ffffff;
-    }
-
-    header {
-      height: 60px;
-      display: flex;
-      align-items: center;
-      padding: 0 16px;
-      background: #1b1f27;
-    }
-
-    main {
-      padding: 24px 16px;
-      max-width: 1200px;
-      margin: auto;
-    }
-
-    h1 {
-      font-size: 28px;
-      margin-bottom: 12px;
-    }
-
-    p {
-      font-size: 18px;
-      line-height: 1.6;
-    }
-
-    .btn-primary {
-      display: inline-block;
-      margin-top: 16px;
-      padding: 12px 18px;
-      background: #ffcc00;
-      color: #000;
-      border-radius: 6px;
-      text-decoration: none;
-      font-weight: 600;
-    }
-  </style>
-
-  <!-- NON-CRITICAL CSS (async) -->
-  <link rel="preload" href="/css/app.css" as="style" onload="this.rel='stylesheet'">
-  <noscript>
-    <link rel="stylesheet" href="/css/app.css">
-  </noscript>
-
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-<header>
-  <strong>My Website</strong>
+<!-- TOP BAR -->
+<div class="top-bar">
+  Top Bar
+</div>
+
+<!-- HEADER IMAGE -->
+<header class="header-image">
+  Header Image
 </header>
 
-<main>
-  <h1>Fast & Google Friendly Website</h1>
-  <p>
-    This page loads fast, is SEO-safe, and optimized for Core Web Vitals.
-  </p>
-  <a href="#" class="btn-primary">Get Started</a>
-</main>
+<!-- NAV AREA -->
+<div class="nav-wrapper">
+  <nav class="nav-left">
+    <a href="#">Nav 1</a>
+    <a href="#">Nav 2</a>
+    <a href="#">Nav 3</a>
+  </nav>
+
+  <nav class="nav-right">
+    <a href="#">Nav A</a>
+    <a href="#">Nav B</a>
+  </nav>
+
+  <a href="#" class="signup-btn">Sign Up</a>
+</div>
+
+<!-- IMAGE GRID WITH SCROLL -->
+<section class="image-section">
+  <div class="image-grid">
+    <div class="img-box"></div>
+    <div class="img-box"></div>
+    <div class="img-box"></div>
+    <div class="img-box"></div>
+    <div class="img-box"></div>
+    <div class="img-box"></div>
+  </div>
+</section>
+
+<!-- CONTENT -->
+<section class="content">
+  <h1>Main Heading</h1>
+  <h2>Sub Heading</h2>
+  <h3>Small Heading</h3>
+
+  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+  <p>Vivamus luctus urna sed urna ultricies ac tempor dui sagittis.</p>
+  <p>In condimentum facilisis porta.</p>
+</section>
+
+<!-- FOOTER -->
+<footer class="footer">
+  Footer
+</footer>
 
 </body>
 </html>
