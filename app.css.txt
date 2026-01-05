@@ -1,0 +1,102 @@
+/* ===============================
+   GLOBAL
+================================ */
+
+* {
+  box-sizing: border-box;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+/* ===============================
+   LAYOUT
+================================ */
+
+.site {
+  max-width: 1200px;
+  margin: auto;
+}
+
+footer {
+  padding: 24px;
+  text-align: center;
+  background: #1b1f27;
+  color: #aaa;
+}
+
+/* ===============================
+   NAV / DROPDOWN
+================================ */
+
+.nav {
+  display: flex;
+  gap: 16px;
+}
+
+.dropdown {
+  position: relative;
+}
+
+.dropdown-menu {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  background: #2a2f3a;
+  display: none;
+  min-width: 160px;
+}
+
+.dropdown:hover .dropdown-menu {
+  display: block;
+}
+
+.dropdown-item {
+  padding: 10px 14px;
+  color: #fff;
+  text-decoration: none;
+}
+
+.dropdown-item:hover {
+  background: #3a4050;
+}
+
+/* ===============================
+   BUTTONS
+================================ */
+
+.btn-secondary {
+  padding: 10px 16px;
+  border-radius: 6px;
+  background: #3a4050;
+  color: #fff;
+  text-decoration: none;
+}
+
+/* ===============================
+   ANIMATION (SAFE)
+================================ */
+
+@media (prefers-reduced-motion: reduce) {
+  * {
+    animation: none !important;
+    transition: none !important;
+  }
+}
+
+/* ===============================
+   RESPONSIVE
+================================ */
+
+@media (max-width: 768px) {
+  h1 {
+    font-size: 22px;
+  }
+
+  p {
+    font-size: 16px;
+  }
+}
